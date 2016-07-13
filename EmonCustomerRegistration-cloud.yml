@@ -5,7 +5,7 @@ error:
     enabled: false
 logging:
   level:
-     root: info
+     root: debug
 spring: 
   flyway:
     locations: db.migration
