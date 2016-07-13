@@ -10,7 +10,10 @@ logging:
 server:
   port: 9090
           
-spring: 
+spring:
+ security:
+  basic:
+    enabled: false
  flyway:
   locations: dev.db.migration
  jpa:
