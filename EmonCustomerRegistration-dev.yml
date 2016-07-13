@@ -1,0 +1,19 @@
+application:
+    name: EMonDeviceRegistration
+error:
+  whitelabel:
+    enabled: false
+logging:
+  level:
+     root: info
+
+server:
+  port: 9090
+          
+spring: 
+ flyway:
+  locations: dev.db.migration
+ jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      naming-strategy: org.hibernate.cfg.DefaultComponentSafeNamingStrategy
