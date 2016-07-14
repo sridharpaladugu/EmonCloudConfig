@@ -10,6 +10,7 @@ spring:
   flyway:
     locations: db.migration
   jpa:
+    generate-ddl: true
     database-platform: org.hibernate.dialect.MySQLDialect
     hibernate:
       ddl-auto: validate    
